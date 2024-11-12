@@ -4,19 +4,19 @@
     {
         static void Main(string[] args)
         {
-            int x = 0, y = 0;
+            int y = 0, k = 4;
 
-            x = Convert.ToInt32(Console.ReadLine());
+            if (k > 5)
 
-            y = Convert.ToInt32(Console.ReadLine());
+                if (k > 10) y = 1;
 
-            int z = 0;
+                else y = 2;
 
-            if (x > y) z = y;
+            else if (k > 0) y = 3;
 
-            else z = x;
+            else y = 4;
 
-            Console.WriteLine(z);
+            Console.WriteLine(y);
         }
     }
 }
