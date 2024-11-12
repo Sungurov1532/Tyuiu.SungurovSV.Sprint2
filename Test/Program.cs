@@ -4,18 +4,9 @@
     {
         static void Main(string[] args)
         {
-            int y = 0, k = 4;
+            int x = 5;
 
-            if (k > 5)
-
-                if (k > 10) y = 1;
-
-                else y = 2;
-
-            else if (k > 0) y = 3;
-
-            else y = 4;
-
+            int y = (x <= 0) || (x >= 10) ? 1 + x * 5 : 10 - 2 * x;
             Console.WriteLine(y);
         }
     }
